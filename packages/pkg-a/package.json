@@ -3,7 +3,8 @@
   "scripts": {
     "build": "echo \"Building at the speed of Turbo.\" > output-file.txt && cat output-file.txt",
     "lint": "echo \"Linted!\"",
-    "check-types": "echo \"Types checked!\""
+    "check-types": "echo \"Types checked!\"",
+    "echo": "echo $@"
   },
   "dependencies": {
     "tooling-config": "*"
