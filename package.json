@@ -2,8 +2,12 @@
   "name": "my-turborepo",
   "description": "A barebones Turborepo example for working with Task Graphs.",
   "private": true,
-  "packageManager": "pnpm@8.15.6",
   "devDependencies": {
     "turbo": "^2.4.3-canary.4"
-  }
+  },
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
